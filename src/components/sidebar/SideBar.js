@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./SideBar.scss";
 const SideBar = (props) => {
-  const colors = ["#0048BA", "#3DDC84", "#00FFFF", "#FAE7B5", "#FFEF00"];
+  const colors = ["#e7feff", "#a6e7ff", "#e8f4f7", "#ecf1ec", "#a4f4f9"];
   const [listOpen, setListOpen] = useState(false);
 
   return (

@@ -1,0 +1,21 @@
+
+.note_container{
+    height: 100%;
+    h2{
+        font-size: 2rem;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+    }
+    .note_container_img{
+        height: 2.5rem;
+        width: 2.5rem;
+        margin-left: 5px;
+    }
+}
+.note_container_notes{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}

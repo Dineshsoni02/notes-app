@@ -1,0 +1,38 @@
+.note {
+  background: rgb(168, 219, 200);
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  padding: 25px;
+  .note_lower {
+    display: flex;
+    justify-content: space-between;
+  }
+  .note_textarea {
+    flex: 1;
+    border: none;
+    resize: none;
+    background: transparent;
+    outline: none;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+  }
+
+  .note_lower {
+    transition: 300ms;
+    .note_delete {
+      height: 25px;
+      width: 25px;
+      cursor: pointer;
+      opacity: 0;
+    }
+    &:hover{
+        .note_delete{
+            opacity: 1;
+        }
+    }
+  }
+}
